@@ -5,26 +5,25 @@
 }
 body {
   background-color: var(--slate-300);
-  font-family: 'Outfit';
+  font-family: 'Outfit', system-ui, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100svh;
+  padding: 16px;
 }
 .card {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 20vw;
-  min-width: 280px;
   background-color: white;
   border-radius: 20px;
   padding: 15px;
-  margin: 20px;
   text-align: center;
+  max-width: 20rem;
 }
 .card p {
-  font-size: 15px;
+  font-size: 1rem;
   color: var(--slate-500);
 }
 .title {
@@ -32,26 +31,8 @@ body {
   font-weight: 900;
 }
 .card img {
+  display: block;
+  height: auto;
+  max-width: 100%;
   border-radius: 10px;
-  width: 100%;
 }
-
-/* for show-off! */
-@media only screen and (max-width: 1440px) {
-    .title {
-        font-size: 23px;
-      }
-      .card p {
-        font-size: 15px;
-      }
-  }
-@media only screen and (max-width: 375px) {
-    .title {
-        font-size: 23px;
-      }
-      .card p {
-        font-size: 15px;
-      }
-}
-
-

@@ -1,4 +1,4 @@
-# QR Code Component
+# QR Code Component (For Newbies)
 
 This is a **QR Code Component** built with **HTML & CSS**. It displays a QR code along with a short description and a title in a simple, responsive card layout.
 
